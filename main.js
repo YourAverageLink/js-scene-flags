@@ -57,7 +57,4 @@ function lookupFlag(searchTerm,mapName,verbose = false) {
     throw 'Unknown map: ' + mapName
 }
 
-console.log(flagToEvent('7x04','sg'))
-console.log(getBiTInfo('5x02'))
-console.log(lookupFlag('shed','skyloft',true))
 module.exports = {flagToEvent, getBiTInfo, lookupFlag};
