@@ -1,5 +1,3 @@
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
 
 class Map {
     constructor(file,name,aliases = [],bitAccessible = false) {
@@ -40,6 +38,5 @@ const maps = [
     new Map('skykeep.json','Sky Keep',['skykeep','sk','skeep']),
 ];
 
-export {maps};
-
+module.exports = {maps};
 

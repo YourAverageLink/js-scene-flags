@@ -2,7 +2,6 @@
   "name": "ss-scene-flags",
   "version": "1.0.0",
   "description": "library for searching scene flags by index, indices by scene flag, etc. in skyward sword",
-  "type": "module",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

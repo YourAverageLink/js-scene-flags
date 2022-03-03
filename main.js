@@ -1,4 +1,4 @@
-import { maps } from './load_maps.js'
+const {maps} = require('./load_maps.js');
 
 /**
      * Finds the event associated with a given scene flag index on a given map.
@@ -57,4 +57,7 @@ function lookupFlag(searchTerm,mapName,verbose = false) {
     throw 'Unknown map: ' + mapName
 }
 
-export {flagToEvent, getBiTInfo, lookupFlag}
+console.log(flagToEvent('7x04','sg'))
+console.log(getBiTInfo('5x02'))
+console.log(lookupFlag('shed','skyloft',true))
+module.exports = {flagToEvent, getBiTInfo, lookupFlag};
