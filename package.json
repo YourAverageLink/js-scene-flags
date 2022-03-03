@@ -1,6 +1,6 @@
 {
   "name": "ss-scene-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library for searching scene flags by index, indices by scene flag, etc. in skyward sword",
   "main": "main.js",
   "scripts": {
