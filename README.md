@@ -4,7 +4,7 @@ JS Scene Flags is a JavaScript library for dealing with scene flags in Skyward S
 
 ## Installation
 
-Use the package manager [npm](https://docs.npmjs.com/about-npm) to install foobar.
+Use the package manager [npm](https://docs.npmjs.com/about-npm) to install JS Scene Flags.
 Note: The name is slightly different on npm.
 
 ```bash
